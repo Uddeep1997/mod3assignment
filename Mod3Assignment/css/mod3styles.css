@@ -1,0 +1,81 @@
+/*HEADER */ 
+
+#header-nav
+{
+	background-color: violet;
+	border: 2px solid black;
+	clear: both;
+}
+.navbar-brand
+{
+	padding-bottom: 30px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+#navbar-heading
+{
+	margin: 0;
+	vertical-align: middle;
+}
+.navbar-brand a:hover
+{
+	text-decoration: none;
+}
+#collapsable-nav
+{
+	padding: 0;
+	border-top: 1px solid black;
+}
+ul#nav-list
+{
+	margin: 0px;
+padding: 0;
+}
+nav ul .menu-items
+{
+	color: black;
+	font-weight: bold;
+	font-size: 2em;
+	background-color: #ddd;
+	opacity: 0.8;
+	border: 0;
+	padding: 5px;
+	border-top: 1px solid black;
+
+}
+/*END HEADER*/
+section.container
+{
+	width: 90%;
+	text-align: center;
+	background-color: gold;
+	margin-bottom: 40px;
+}
+
+h3
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+h4
+{
+	color: red;
+	font-weight: bold;
+}
+p span
+{
+	text-decoration: underline;
+}
+.container p
+{
+	font-size: 1.5em;
+}
+
+@media (max-width: 768px)
+{
+	section.container
+	{
+		width: 75%;
+	}
+}
